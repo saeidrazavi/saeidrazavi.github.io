@@ -214,6 +214,10 @@ section {
   margin-bottom: -100px;
 }
 
+.section__text__p3 {
+  text-align: center;
+}
+
 .section__text__p2 {
   font-size: 1rem;
   margin-bottom: 1rem;
@@ -227,6 +231,18 @@ section {
   font-size: 2.5rem;
   text-align: center;
   margin-top: 100px;
+}
+
+.title2 {
+  font-size: 2.5rem;
+  text-align: center;
+  margin-top: 200px;
+}
+
+.title3 {
+  font-size: 2.5rem;
+  text-align: center;
+  margin-top: 10px;
 }
 
 #socials-container {
@@ -540,7 +556,7 @@ footer p {
 /* Research Section */
 #research {
   padding: 200px 0; /* Add padding as needed */
-  margin-bottom: 350px;
+  margin-bottom: 250px;
   margin-top: -150px;
   margin-right: 100px;
 }
@@ -579,12 +595,13 @@ footer p {
   border-radius: 15px; /* Add rounded corners to the image */
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
   background-color: #f2f2f22b; /* Set the background color to gray */
+  margin-top: 50px;
 }
 
 /* Publications Section */
 #publication {
   padding: 200px 0; /* Add padding as needed */
-  margin-bottom: -350px;
+  margin-bottom: -450px;
   margin-top: -150px;
   margin-right: 100px;
 }
