@@ -214,10 +214,6 @@ section {
   margin-bottom: -100px;
 }
 
-.section__text__p3 {
-  text-align: center;
-}
-
 .section__text__p2 {
   font-size: 1rem;
   margin-bottom: 1rem;
@@ -231,18 +227,6 @@ section {
   font-size: 2.5rem;
   text-align: center;
   margin-top: 100px;
-}
-
-.title2 {
-  font-size: 2.5rem;
-  text-align: center;
-  margin-top: 200px;
-}
-
-.title3 {
-  font-size: 2.5rem;
-  text-align: center;
-  margin-top: 10px;
 }
 
 #socials-container {
@@ -556,7 +540,7 @@ footer p {
 /* Research Section */
 #research {
   padding: 200px 0; /* Add padding as needed */
-  margin-bottom: 250px;
+  margin-bottom: 200px;
   margin-top: -150px;
   margin-right: 100px;
 }
@@ -564,7 +548,7 @@ footer p {
 .research-container {
   display: flex;
   flex-direction: column;
-  gap: 15px; /* Add space between rows */
+  gap: 20px; /* Add space between rows */
 
 }
 
@@ -595,13 +579,12 @@ footer p {
   border-radius: 15px; /* Add rounded corners to the image */
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
   background-color: #f2f2f22b; /* Set the background color to gray */
-  margin-top: 50px;
 }
 
 /* Publications Section */
 #publication {
   padding: 200px 0; /* Add padding as needed */
-  margin-bottom: -450px;
+  margin-bottom: -350px;
   margin-top: -150px;
   margin-right: 100px;
 }
@@ -629,23 +612,9 @@ footer p {
 
 .publication-status {
   display: inline-block;
-  background-color: #9eedb1;
+  background-color: #bde1bf;
   padding: 5px 10px;
   border-radius: 5px;
-}
-
-.publication-link {
-  display: inline-block;
-  background-color: #989a99;
-  padding: 2.6px 5.6px;
-  border-radius: 2.5px;
-  font-weight: bold; /* Bold the text */
-  transition: background-color 0.3s ease, transform 0.3s ease; /* Smooth transition effects */
-}
-
-.publication-link:hover {
-  background-color: #989a99; /* Darken the background on hover */
-  transform: translateY(-1px); /* Slight lift on hover */
 }
 
 .publication-author {
